@@ -29,7 +29,7 @@ def mod_inverse(e, phi):
             return d
     raise ValueError('mod_inverse does not exist')
 
-# demonsrate RSA encryption and decryption
+# demonsrate RSA encryption and decryption... based on YouTube demo and some of my old code from a math course
 def rsa_demo():
     # generate two distinct primes
     p, q = generate_prime(1000, 5000), generate_prime(1000, 5000)
@@ -174,7 +174,7 @@ def vigenereDecrypt(message,key):
     
     return decMes.lower()
 
-# Vigenere demo
+# Vigenere demo... recycles some code I wrote for math courses and math fun
 def vigenere_demo():
     key = input('\nCreate a key word to share with an ally: ')
     message = input('Create a message to send to an ally with the key: ')
